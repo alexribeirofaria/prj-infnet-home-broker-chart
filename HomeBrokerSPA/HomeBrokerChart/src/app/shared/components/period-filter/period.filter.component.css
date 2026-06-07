@@ -1,0 +1,34 @@
+#filterStart {
+  width: 100%;
+}
+
+#filterEnd {
+  width: 100%;
+}
+
+.error-bi-input {
+  display: inline;
+
+}
+
+.not-error-input {
+  display: none;
+}
+
+@media screen and (max-width: 667px) {
+  button{
+    width: auto;
+    margin-top: 4px;
+    font-size: 0.6rem;
+  }
+
+  #filterStart {
+    width: auto;
+    font-size: 0.6rem;
+  }
+
+  #filterEnd {
+    width: auto;
+    font-size: 0.6rem;
+  }
+}
